@@ -20,7 +20,7 @@ class AnswersButton extends StatelessWidget {
                     )
                   ),
                   padding: new EdgeInsets.all(10.0),
-                  child: new Text(_anwser ? '答对了' : '答错了',
+                  child: new Text(_anwser ? 'true' : 'false',
                       style: new TextStyle(
                         color: Colors.white,
                         fontSize: 40.0,

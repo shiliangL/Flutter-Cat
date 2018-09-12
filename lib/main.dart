@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cat/views/landing_page.dart';
-import 'package:flutter_cat/views/quiz_page.dart';
 
 void main() => runApp(new MaterialApp(
-  // home: new LandingPage()
-  home: new QuizPage()
+  home: new LandingPage()
 ));
 
 // import 'package:flutter/material.dart';
