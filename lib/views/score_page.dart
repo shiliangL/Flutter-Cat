@@ -18,9 +18,9 @@ class ScorePage extends StatelessWidget{
           new Text('you score is :', style: new TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 50.0),),
           new Text(_score.toString()+ '/' + _totalQuestions.toString(),style: new TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 40.0),),
           new IconButton(
-            icon: new Icon(Icons.arrow_right),
+            icon: new Icon(Icons.replay),
             color: Colors.white,
-            iconSize: 50.0,
+            iconSize: 40.0,
             onPressed: (){
               Navigator.push(context, new MaterialPageRoute(
                 builder: (BuildContext contenx)=> new LandingPage()
