@@ -8,7 +8,7 @@ class AnswersButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Expanded(
       child: new Material(
-      color: _anwser ? Colors.greenAccent : Colors.redAccent,
+      color: _anwser ? Colors.lightBlueAccent : Colors.redAccent,
       child: new InkWell(
           onTap: () => _onTap(),
           child: new Center(

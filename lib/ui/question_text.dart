@@ -45,7 +45,8 @@ class QuestionTextState extends State<QuestionText> with TickerProviderStateMixi
         padding: new EdgeInsets.symmetric(vertical: 10.0),
         child: new Center(child: new Text(widget._questionNumber.toString() +':'+widget._question,
           style: new TextStyle(
-            fontSize:_fontSizeAnimation.value*15
+            fontSize:_fontSizeAnimation.value*18,
+            fontWeight: FontWeight.bold,
           ),
         )),
       ),
